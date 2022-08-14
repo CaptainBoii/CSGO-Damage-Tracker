@@ -10,7 +10,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="200px" />
+        android:layout_height="120px" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,18 +18,18 @@
         android:orientation="horizontal">
 
         <Space
-            android:layout_width="75px"
+            android:layout_width="30px"
             android:layout_height="match_parent" />
 
         <Button
             android:id="@+id/button_green"
-            android:layout_width="300px"
+            android:layout_width="200px"
             android:layout_height="300px"
             android:backgroundTint="@color/green"
             android:text="   " />
 
         <Space
-            android:layout_width="100px"
+            android:layout_width="50px"
             android:layout_height="wrap_content" />
 
         <LinearLayout
@@ -39,19 +39,19 @@
 
             <Button
                 android:id="@+id/button_green_damage"
-                android:layout_width="400px"
+                android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
                 android:text="Current damage: \t0"
                 android:textSize="50px" />
 
             <Space
-                android:layout_width="100px"
+                android:layout_width="50px"
                 android:layout_height="wrap_content" />
 
             <Button
                 android:id="@+id/button_green_kills"
-                android:layout_width="400px"
+                android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
                 android:text="Current kills: \t0"
@@ -65,18 +65,18 @@
         android:orientation="horizontal">
 
         <Space
-            android:layout_width="75px"
+            android:layout_width="30px"
             android:layout_height="match_parent" />
 
         <Button
             android:id="@+id/button_purple"
-            android:layout_width="300px"
+            android:layout_width="200px"
             android:layout_height="300px"
             android:backgroundTint="@color/purple"
             android:text="   " />
 
         <Space
-            android:layout_width="100px"
+            android:layout_width="50px"
             android:layout_height="wrap_content" />
 
         <LinearLayout
@@ -86,19 +86,19 @@
 
             <Button
                 android:id="@+id/button_purple_damage"
-                android:layout_width="400px"
+                android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
                 android:text="Current damage: \t0"
                 android:textSize="50px" />
 
             <Space
-                android:layout_width="100px"
+                android:layout_width="50px"
                 android:layout_height="wrap_content" />
 
             <Button
                 android:id="@+id/button_purple_kills"
-                android:layout_width="400px"
+                android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
                 android:text="Current kills: \t0"
@@ -112,18 +112,18 @@
         android:orientation="horizontal">
 
         <Space
-            android:layout_width="75px"
+            android:layout_width="30px"
             android:layout_height="match_parent" />
 
         <Button
             android:id="@+id/button_orange"
-            android:layout_width="300px"
+            android:layout_width="200px"
             android:layout_height="300px"
             android:backgroundTint="@color/orange"
             android:text="   " />
 
         <Space
-            android:layout_width="100px"
+            android:layout_width="50px"
             android:layout_height="wrap_content" />
 
         <LinearLayout
@@ -133,19 +133,19 @@
 
             <Button
                 android:id="@+id/button_orange_damage"
-                android:layout_width="400px"
+                android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
                 android:text="Current damage: \t0"
                 android:textSize="50px" />
 
             <Space
-                android:layout_width="100px"
+                android:layout_width="50px"
                 android:layout_height="wrap_content" />
 
             <Button
                 android:id="@+id/button_orange_kills"
-                android:layout_width="400px"
+                android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
                 android:text="Current kills: \t0"
@@ -159,18 +159,18 @@
         android:orientation="horizontal">
 
         <Space
-            android:layout_width="75px"
+            android:layout_width="30px"
             android:layout_height="match_parent" />
 
         <Button
             android:id="@+id/button_yellow"
-            android:layout_width="300px"
+            android:layout_width="200px"
             android:layout_height="300px"
             android:backgroundTint="@color/yellow"
             android:text="   " />
 
         <Space
-            android:layout_width="100px"
+            android:layout_width="50px"
             android:layout_height="wrap_content" />
 
         <LinearLayout
@@ -180,7 +180,7 @@
 
             <Button
                 android:id="@+id/button_yellow_damage"
-                android:layout_width="400px"
+                android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
                 android:text="Current damage: \t0"
@@ -188,12 +188,12 @@
                 android:textSize="50px" />
 
             <Space
-                android:layout_width="100px"
+                android:layout_width="50px"
                 android:layout_height="wrap_content" />
 
             <Button
                 android:id="@+id/button_yellow_kills"
-                android:layout_width="400px"
+                android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
                 android:text="Current kills: \t0"
@@ -208,18 +208,18 @@
         android:orientation="horizontal">
 
         <Space
-            android:layout_width="75px"
+            android:layout_width="30px"
             android:layout_height="match_parent" />
 
         <Button
             android:id="@+id/button_blue"
-            android:layout_width="300px"
+            android:layout_width="200px"
             android:layout_height="300px"
             android:backgroundTint="@color/blue"
             android:text="   " />
 
         <Space
-            android:layout_width="100px"
+            android:layout_width="50px"
             android:layout_height="wrap_content" />
 
         <LinearLayout
@@ -229,19 +229,19 @@
 
             <Button
                 android:id="@+id/button_blue_damage"
-                android:layout_width="400px"
+                android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
                 android:text="Current damage: \t0"
                 android:textSize="50px" />
 
             <Space
-                android:layout_width="100px"
+                android:layout_width="50px"
                 android:layout_height="wrap_content" />
 
             <Button
                 android:id="@+id/button_blue_kills"
-                android:layout_width="400px"
+                android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
                 android:text="Current kills: \t0"
@@ -252,8 +252,8 @@
 
     <Button
         android:id="@+id/reset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300px"
+        android:layout_height="200px"
         android:text="Reset" />
 
 </LinearLayout>
