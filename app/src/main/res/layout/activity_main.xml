@@ -1,34 +1,259 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="200px" />
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.Csgodamagetracker.AppBarOverlay">
+        android:orientation="horizontal">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+        <Space
+            android:layout_width="75px"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_green"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:backgroundTint="@color/green"
+            android:text="   " />
+
+        <Space
+            android:layout_width="100px"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.Csgodamagetracker.PopupOverlay" />
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
-    </com.google.android.material.appbar.AppBarLayout>
+            <Button
+                android:id="@+id/button_green_damage"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/brown"
+                android:text="Current damage: \t0"
+                android:textSize="50px" />
 
-    <include layout="@layout/content_main" />
+            <Space
+                android:layout_width="100px"
+                android:layout_height="wrap_content" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+            <Button
+                android:id="@+id/button_green_kills"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/brown"
+                android:text="Current kills: \t0"
+                android:textSize="50px" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="75px"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_purple"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:backgroundTint="@color/purple"
+            android:text="   " />
+
+        <Space
+            android:layout_width="100px"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_purple_damage"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/brown"
+                android:text="Current damage: \t0"
+                android:textSize="50px" />
+
+            <Space
+                android:layout_width="100px"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button_purple_kills"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/brown"
+                android:text="Current kills: \t0"
+                android:textSize="50px" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="75px"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_orange"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:backgroundTint="@color/orange"
+            android:text="   " />
+
+        <Space
+            android:layout_width="100px"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_orange_damage"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/brown"
+                android:text="Current damage: \t0"
+                android:textSize="50px" />
+
+            <Space
+                android:layout_width="100px"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button_orange_kills"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/brown"
+                android:text="Current kills: \t0"
+                android:textSize="50px" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="75px"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_yellow"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:backgroundTint="@color/yellow"
+            android:text="   " />
+
+        <Space
+            android:layout_width="100px"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_yellow_damage"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/brown"
+                android:text="Current damage: \t0"
+                android:textColor="@color/black"
+                android:textSize="50px" />
+
+            <Space
+                android:layout_width="100px"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button_yellow_kills"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/brown"
+                android:text="Current kills: \t0"
+                android:textColor="@color/black"
+                android:textSize="50px" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="75px"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_blue"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:backgroundTint="@color/blue"
+            android:text="   " />
+
+        <Space
+            android:layout_width="100px"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_blue_damage"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/brown"
+                android:text="Current damage: \t0"
+                android:textSize="50px" />
+
+            <Space
+                android:layout_width="100px"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button_blue_kills"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/brown"
+                android:text="Current kills: \t0"
+                android:textSize="50px" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:text="Reset" />
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>
