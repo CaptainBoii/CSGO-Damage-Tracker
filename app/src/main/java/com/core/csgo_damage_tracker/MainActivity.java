@@ -304,6 +304,12 @@ public class MainActivity extends AppCompatActivity {
                     green_kills_value ++;
                     green_kills_button.setText(kills_text+green_kills_value);
                 }
+                if (green_kills_value == 3) {
+                    green_enabled = false;
+                    green_kills_button.setEnabled(false);
+                    green_damage_button.setEnabled(false);
+                    buttonColorFix();
+                }
             }
         });
         purple_kills_button.setOnClickListener(new View.OnClickListener() {
@@ -311,6 +317,12 @@ public class MainActivity extends AppCompatActivity {
                 if (purple_kills_value < 3) {
                     purple_kills_value ++;
                     purple_kills_button.setText(kills_text+purple_kills_value);
+                }
+                if (purple_kills_value == 3) {
+                    purple_enabled = false;
+                    purple_kills_button.setEnabled(false);
+                    purple_damage_button.setEnabled(false);
+                    buttonColorFix();
                 }
             }
         });
@@ -320,6 +332,12 @@ public class MainActivity extends AppCompatActivity {
                     orange_kills_value ++;
                     orange_kills_button.setText(kills_text+orange_kills_value);
                 }
+                if (orange_kills_value == 3) {
+                    orange_enabled = false;
+                    orange_kills_button.setEnabled(false);
+                    orange_damage_button.setEnabled(false);
+                    buttonColorFix();
+                }
             }
         });
         yellow_kills_button.setOnClickListener(new View.OnClickListener() {
@@ -328,6 +346,12 @@ public class MainActivity extends AppCompatActivity {
                     yellow_kills_value ++;
                     yellow_kills_button.setText(kills_text+yellow_kills_value);
                 }
+                if (yellow_kills_value == 3) {
+                    yellow_enabled = false;
+                    yellow_kills_button.setEnabled(false);
+                    yellow_damage_button.setEnabled(false);
+                    buttonColorFix();
+                }
             }
         });
         blue_kills_button.setOnClickListener(new View.OnClickListener() {
@@ -335,6 +359,12 @@ public class MainActivity extends AppCompatActivity {
                 if (blue_kills_value < 3) {
                     blue_kills_value ++;
                     blue_kills_button.setText(kills_text+blue_kills_value);
+                }
+                if (blue_kills_value == 3) {
+                    blue_enabled = false;
+                    blue_kills_button.setEnabled(false);
+                    blue_damage_button.setEnabled(false);
+                    buttonColorFix();
                 }
             }
         });

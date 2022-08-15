@@ -54,7 +54,7 @@
                 android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
-                android:text="Current kills: \t0"
+                android:text="Current kills:\t0"
                 android:textSize="50px" />
         </LinearLayout>
     </LinearLayout>
@@ -101,7 +101,7 @@
                 android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
-                android:text="Current kills: \t0"
+                android:text="Current kills:\t0"
                 android:textSize="50px" />
         </LinearLayout>
     </LinearLayout>
@@ -148,7 +148,7 @@
                 android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
-                android:text="Current kills: \t0"
+                android:text="Current kills:\t0"
                 android:textSize="50px" />
         </LinearLayout>
     </LinearLayout>
@@ -196,7 +196,7 @@
                 android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
-                android:text="Current kills: \t0"
+                android:text="Current kills:\t0"
                 android:textColor="@color/black"
                 android:textSize="50px" />
         </LinearLayout>
@@ -244,7 +244,7 @@
                 android:layout_width="350px"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/brown"
-                android:text="Current kills: \t0"
+                android:text="Current kills:\t0"
                 android:textSize="50px" />
         </LinearLayout>
 
